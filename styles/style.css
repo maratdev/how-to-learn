@@ -235,7 +235,7 @@ h1, h2, h3, h4, p, span {
   position: relative;
   margin-top: 100px;
   min-height: 890px;
-  background: #f2f2f2 url(../images/feynman.png) no-repeat bottom left ;
+  background: #f2f2f2 url(../images/feynman.png) no-repeat bottom left;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -314,7 +314,7 @@ h1, h2, h3, h4, p, span {
   right: -210px;
   width: 877px;
   height: 877px;
-  background: no-repeat center/contain url(../images/kaufman-triangle.svg) ;
+  background: no-repeat center/contain url(../images/kaufman-triangle.svg);
 }
 
 /* --------------------------------------------------------БЛОК FOOTER */
