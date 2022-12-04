@@ -6,11 +6,6 @@
   margin: 0;
 }
 
-.no-wrap{
-  margin: 0;
-  padding: 0;
-}
-
 
 /* ------------------------------------------------------BODY */
 .page {
@@ -52,6 +47,7 @@
 
 /* header --> h1 */
 .header__title {
+  padding: 0;
   z-index: 1;
   height: auto;
   align-self: center;
@@ -59,11 +55,13 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
-  margin-left: 64px;
+  margin:0 0 0 64px;
 }
 /* header --> p */
 .header__subtitle {
   position: absolute;
+  margin: 0;
+  padding: 0;
   width: 388px;
   left: 64px;
   bottom: 30px;
@@ -117,6 +115,8 @@
 }
 
 .two-columns__brief {
+  margin: 0;
+  padding: 0;
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -199,7 +199,7 @@
   margin: 0;
 }
 
-.text__span-padding {
+.able__text-padding {
   display: inline-block;
   margin: 20px 0 0;
 }
@@ -229,7 +229,8 @@
 
 .feynman__subtitle {
   text-align: center;
-  margin-top: 70px;
+  margin: 70px 0 0;
+  padding: 0;
 }
 
 .feynman__link {
@@ -246,11 +247,10 @@
   padding: 90px 0;
   position: relative;
   overflow: hidden;
+  color: #fff;
   background-color: #1f1f1f;
 }
-.kaufman__txt_theme_dark {
-  color: #fff;
-}
+
 .table_theme_dark {
   position: relative;
   z-index: 1;
@@ -262,10 +262,12 @@
   margin-top: 80px;
 }
 
-.section-title_theme-dark {
+.section-title_theme_dark {
+  position: relative;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
+  z-index: 2;
 }
 
 .section-subtitle_theme_dark {
@@ -324,6 +326,7 @@
 }
 
 .footer__author {
+  margin: 0;
   padding: 18px  0;
   line-height: 25px;
   font-size: 18px;
