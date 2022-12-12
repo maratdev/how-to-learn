@@ -1,0 +1,7 @@
+.cards {
+  outline: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  width: 920px;
+  margin:0 auto;
+}

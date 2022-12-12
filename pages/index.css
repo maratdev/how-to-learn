@@ -1,176 +1,64 @@
-/*----------Изменение внешнего вида блока*/
+@import url(../vendor/normalize.css);
 
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+/* -----------------------------BODY */
+@import url(../blocks/page/page.css);
+/*----------Сбросы для списков ul li */
+@import url(../blocks/list/list.css);
+/*------------------------Анимация Rotate */
+@import url(../blocks/rotation/rotation.css);
+/*------------Стили для всех ссылок*/
+@import url(../blocks/link/link.css);
 
+/*---------------------header --> logo */
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__place/logo_place_header.css);
 
-/* ------------------------------------------------------BODY */
-.page {
-  min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-}
-
-
-/* -------------------------ШАПКА САЙТА, БЛОК HEADER */
-.header {
-  display: flex;
-  position: relative;
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  overflow: hidden;
-  background-color: #f2f2f2;
-  /* выше установили ограничения для секции */
-}
-
-/* header --> logo */
-.logo {
-  width: 228px;
-  height: 32px;
-}
-
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  z-index: 2;
-}
-
-/* header --> h1 */
-.header__title {
-  padding: 0;
-  z-index: 1;
-  height: auto;
-  align-self: center;
-  width: 730px;
-  line-height: 96px;
-  font-size: 102px;
-  font-weight: 600;
-  margin:0 0 0 64px;
-}
-/* header --> p */
-.header__subtitle {
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  width: 388px;
-  left: 64px;
-  bottom: 30px;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  z-index: 3;
-}
-
-.header__link{
-  color: #2f80ed;
-  text-decoration: none;
-}
+/* ----------------------------------------------------------ШАПКА САЙТА, БЛОК HEADER */
+@import url(../blocks/header/header.css);
 /* header --> p --> a */
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  position: absolute;
-  top: 64px;
-  right: 0;
-  height: 568px;
-  width: 568px;
-  background-color: #2f80ed;
-}
-
-.header__main-illustration {
-  position: absolute;
-  width: 756px;
-  height: 608px;
-  right: 0;
-  bottom: 0;
-}
-
-.header__width-pic{
-  width: 100%;
-}
+@import url(../blocks/header/__link/header__link.css);
+/* header --> bg */
+@import url(../blocks/header/__main-illustration/__main-illustration.css);
+/* header --> p */
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+/* header --> h1 */
+@import url(../blocks/header/__title/header__title.css);
+/* header --> square pic */
+@import url(../blocks/header/__square-pic/header__square-pic.css);
 
 /* -------------------------------------------------БЛОК CONTENT */
+@import url(../blocks/description/description.css);
+/* description --> two-columns */
+@import url(../blocks/two-columns/two-columns.css);
+/* description --> h2 */
+@import url(../blocks/two-columns/__brief/two-columns__brief.css);
+/* description --> div.two-columns__main-text */
+@import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
+/* description --> div.two-columns__main-text --> p*/
+@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
+/* description --> div.two-columns__main-text --> p --> span*/
+@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
-.description {
-  display: flex;
-  margin-top: 100px;
-  justify-content: center;
-}
+/* ---------------------------------------БЛОК TECHNIQUES */
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
 
-.two-columns{
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-  min-width: 784px;
-  height: auto;
-}
-
-.two-columns__brief {
-  margin: 0;
-  padding: 0;
-  width: 175px;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  color: #2f80ed;
-}
-
-.two-columns__main-text {
-  width: 80%;
-  min-width: 784px;
-  list-style-type: none;
-}
-
-.two-columns__paragraph {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin: 30px 0 0;
-}
-
-.two-columns__paragraph:first-of-type {
-  margin-top: 0;
-}
-
-.two-columns__span-accent {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: 600;
-}
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
 
 
-/* ---------------------------------------БЛОК DIGITS */
+
+
+
+/* ---------------------------------------БЛОК DIGITS не удалять!!! */
 .digits {
   margin-top: 100px;
 }
 
-.section-title {
-  margin: 0 auto;
-  width: 60%;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-  text-align: center;
-}
-
-.section-subtitle {
-  width: 60%;
-  margin: 20px auto 0;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  text-align: center;
-}
 
 .table {
   display: flex;
