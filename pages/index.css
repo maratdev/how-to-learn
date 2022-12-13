@@ -13,79 +13,9 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/__place/logo_place_header.css);
 
-<<<<<<< HEAD:pages/index.css
+
 /* ----------------------------------------------------------ШАПКА САЙТА, БЛОК HEADER */
 @import url(../blocks/header/header.css);
-=======
-/* ------------------------------------------------------BODY */
-.page {
-  min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-}
-
-
-/* -------------------------ШАПКА САЙТА, БЛОК HEADER */
-.header {
-  display: flex;
-  position: relative;
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  overflow: hidden;
-  background-color: #f2f2f2;
-  /* выше установили ограничения для секции */
-}
-
-/* header --> logo */
-.logo {
-  width: 228px;
-  height: 32px;
-}
-
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  z-index: 2;
-}
-
-/* header --> h1 */
-.header__title {
-  padding: 0;
-  z-index: 1;
-  height: auto;
-  align-self: center;
-  width: 730px;
-  line-height: 96px;
-  font-size: 102px;
-  font-weight: 600;
-  margin:0 0 0 64px;
-}
-/* header --> p */
-.header__subtitle {
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  width: 388px;
-  left: 64px;
-  bottom: 30px;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  z-index: 3;
-}
-
-.header__link{
-  color: #2f80ed;
-  text-decoration: none;
-}
->>>>>>> fa673b8a433dfdce0c7811978b3544519e2791b5:styles/style.css
 /* header --> p --> a */
 @import url(../blocks/header/__link/header__link.css);
 /* header --> bg */
@@ -112,15 +42,20 @@
 
 /* ---------------------------------------БЛОК TECHNIQUES */
 @import url(../blocks/techniques/techniques.css);
-@import url(../blocks/cards/cards.css);
-@import url(../blocks/cards/__item/cards__item.css);
-@import url(../blocks/cards/__image/cards__image.css);
-@import url(../blocks/cards/__title/cards__title.css);
-@import url(../blocks/cards/__description/cards__description.css);
-
+/* techniques --> h2*/
 @import url(../blocks/section-title/section-title.css);
+/* techniques --> p*/
 @import url(../blocks/section-subtitle/section-subtitle.css);
-
+/* techniques --> ul*/
+@import url(../blocks/cards/cards.css);
+/* techniques --> ul --> li*/
+@import url(../blocks/cards/__item/cards__item.css);
+/* techniques --> ul --> li --> img*/
+@import url(../blocks/cards/__image/cards__image.css);
+/* techniques --> ul --> li --> h3*/
+@import url(../blocks/cards/__title/cards__title.css);
+/* techniques --> ul --> li --> p*/
+@import url(../blocks/cards/__description/cards__description.css);
 
 
 
