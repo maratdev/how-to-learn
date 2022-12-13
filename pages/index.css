@@ -123,70 +123,30 @@
 /* kaufman  --> div.kaufman__triangle */
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
+/* --------------------------------------------------------БЛОК RESOURCES */
+@import url(../blocks/resources/resources.css);
+/* resources  --> div.resources__logo-zone */
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+/* resources  --> div.resources__logo-zone --> a */
+@import url(../blocks/resources/__link/resources__link.css);
+/* resources  --> div.resources__logo-zone --> a --> img */
+@import url(../blocks/resources/__logo/resources__logo.css);
 
 /* --------------------------------------------------------БЛОК FOOTER */
-
-.footer {
-  min-height: 350px;
-  background-color: #1f1f1f;
-  color: #fff;
-}
-
-.footer__columns {
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
-  margin: 0 auto;
-  padding-top: 60px;
-}
-
-.footer__column {
-  height: 250px;
-}
-
-.footer__column_content_copyright {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: relative;
-  flex-basis: 711px;
-}
-
-.footer__author {
-  margin: 0;
-  padding: 18px  0;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.footer__column-heading {
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: 600;
-  margin: 0;
-}
-
-.footer__column-links {
-  padding: 0;
-  margin: 20px 0 16px;
-}
-
-.footer__column-link {
-  color: #fff;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  text-decoration: none;
-}
-
-.footer__column-link:hover {
-  color: #2f80ed;
-}
-
-.footer__social-icon {
-  width: 16px;
-  height: 16px;
-  margin-right: 10px;
-  vertical-align: text-bottom;
-}
+@import url(../blocks/footer/footer.css);
+/* footer  --> div.footer__columns */
+@import url(../blocks/footer/__columns/footer__columns.css);
+/* footer  --> div.footer__columns --> div.footer__column */
+@import url(../blocks/footer/__column/footer__column.css);
+/* footer  --> div.footer__columns --> div.footer__column_content_copyright */
+@import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
+/* footer  --> div.footer__columns --> div.footer__column_content_copyright --> p */
+@import url(../blocks/footer/__author/footer__author.css);
+/* footer  --> div.footer__columns --> div.footer__column_content_info --> h4 */
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+/* footer  --> div.footer__columns --> div.footer__column_content_info --> nav --> ul */
+@import url(../blocks/footer/__column-links/footer__column-links.css);
+/* footer  --> div.footer__columns --> div.footer__column_content_info --> nav --> ul --> li*/
+@import url(../blocks/footer/__column-link/footer__column-link.css);
+/* footer  --> div.footer__columns --> div.footer__column_content_social --> nav --> ul --> li --> a --> img */
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
