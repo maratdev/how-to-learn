@@ -1,8 +1,7 @@
 .feynman {
   position: relative;
   box-sizing: border-box;
-  padding-top: 100px;
-  height: 890px;
+  min-height: 890px;
   background: #f2f2f2 url(../../images/feynman.png) no-repeat bottom left;
   line-height: 51px;
   font-size: 36px;

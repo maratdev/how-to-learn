@@ -129,15 +129,12 @@
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 /* resources  --> div.resources__logo-zone --> a */
 @import url(../blocks/resources/__link/resources__link.css);
-/* resources  --> div.resources__logo-zone --> a --> img */
-@import url(../blocks/resources/__logo/resources__logo.css);
+
 
 /* --------------------------------------------------------БЛОК FOOTER */
 @import url(../blocks/footer/footer.css);
 /* footer  --> div.footer__columns */
 @import url(../blocks/footer/__columns/footer__columns.css);
-/* footer  --> div.footer__columns --> div.footer__column */
-@import url(../blocks/footer/__column/footer__column.css);
 /* footer  --> div.footer__columns --> div.footer__column_content_copyright */
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
 /* footer  --> div.footer__columns --> div.footer__column_content_copyright --> p */
