@@ -35,33 +35,33 @@
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 /* description --> div.two-columns__main-text */
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
-/* description --> div.two-columns__main-text --> p*/
+/* description --> div.two-columns__main-text --> p */
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 /* description --> div.two-columns__main-text --> p --> span */
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
 /* ---------------------------------------БЛОК TECHNIQUES */
 @import url(../blocks/techniques/techniques.css);
-/* techniques --> h2*/
+/* techniques --> h2 */
 @import url(../blocks/section-title/section-title.css);
-/* techniques --> p*/
+/* techniques --> p */
 @import url(../blocks/section-subtitle/section-subtitle.css);
-/* techniques --> ul*/
+/* techniques --> ul */
 @import url(../blocks/cards/cards.css);
-/* techniques --> ul --> li*/
+/* techniques --> ul --> li */
 @import url(../blocks/cards/__item/cards__item.css);
-/* techniques --> ul --> li --> img*/
+/* techniques --> ul --> li --> img */
 @import url(../blocks/cards/__image/cards__image.css);
-/* techniques --> ul --> li --> h3*/
+/* techniques --> ul --> li --> h3 */
 @import url(../blocks/cards/__title/cards__title.css);
-/* techniques --> ul --> li --> p*/
+/* techniques --> ul --> li --> p */
 @import url(../blocks/cards/__description/cards__description.css);
 
 /* ---------------------------------------БЛОК VIDEO */
 @import url(../blocks/video/video.css);
-/* video  --> div.video__iframes*/
+/* video  --> div.video__iframes */
 @import url(../blocks/video/__iframes/video__iframes.css);
-/* video  --> div.video__iframes --> iframe*/
+/* video  --> div.video__iframes --> iframe */
 @import url(../blocks/video/__iframe/video__iframe.css);
 
 /* ---------------------------------------БЛОК OAKLEY */
@@ -69,61 +69,35 @@
 
 /* --------------------------------------------------------БЛОК FEYNMAN */
 @import url(../blocks/feynman/feynman.css);
+/* feynman  --> h2 */
 @import url(../blocks/feynman/__title/feynman__title.css);
+/* feynman  --> p */
 @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
+/* feynman  --> a */
+@import url(../blocks/feynman/__link/feynman__link.css);
 
-/* ---------------------------------------БЛОК DIGITS не удалять!!! */
-.digits {
-  margin-top: 100px;
-}
+/* -----------------------------------------------БЛОК DIGITS */
+@import url(../blocks/digits/digits.css);
+/* digits  --> ul */
+@import url(../blocks/table/table.css);
+/* digits  --> ul --> li */
+@import url(../blocks/table/__cell/table__cell.css);
+/* digits  --> ul --> li --> h3 */
+@import url(../blocks/table/__heading/table__heading.css);
+/* digits  --> ul --> li --> p */
+@import url(../blocks/table/__text/table__text.css);
 
-.table {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 1100px;
-  margin:0 auto;
-}
-
-.table__cell {
-  width: 250px;
-  margin-top: 60px;
-  list-style-type: none;
-}
-
-.table__heading {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-  margin: 0 0 20px;
-}
-
-.table__text {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  margin: 0 0 20px;
-}
-.table__text:last-child{
-  margin: 0;
-}
-
-
-/* --------------------------------------------------------БЛОК FEYNMAN */
-
-
-
-
-
-
-.feynman__link {
-  position: absolute;
-  right: 48px;
-  top: 50%;
-  text-decoration: none;
-  color: #2f80ed;
-}
-
+/* -----------------------------------------------БЛОК KHAN */
+@import url(../blocks/khan/khan.css);
+@import url(../blocks/khan/__container/khan__container.css);
+@import url(../blocks/khan/__author/khan__author.css);
+@import url(../blocks/khan/__title/khan__title.css);
+@import url(../blocks/khan/__quote/khan__quote.css);
+@import url(../blocks/khan/__quote-author/khan__quote-author.css);
+@import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
+@import url(../blocks/khan/__book-container/khan__book-container.css);
+@import url(../blocks/khan/__book-pic/khan__book-pic.css);
+@import url(../blocks/khan/__buy-link/khan__buy-link.css);
 /* --------------------------------------------------------БЛОК KAUFMAN */
 
 .kaufman {
