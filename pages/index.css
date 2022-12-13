@@ -37,7 +37,7 @@
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 /* description --> div.two-columns__main-text --> p*/
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
-/* description --> div.two-columns__main-text --> p --> span*/
+/* description --> div.two-columns__main-text --> p --> span */
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
 /* ---------------------------------------БЛОК TECHNIQUES */
@@ -57,14 +57,25 @@
 /* techniques --> ul --> li --> p*/
 @import url(../blocks/cards/__description/cards__description.css);
 
+/* ---------------------------------------БЛОК VIDEO */
+@import url(../blocks/video/video.css);
+/* video  --> div.video__iframes*/
+@import url(../blocks/video/__iframes/video__iframes.css);
+/* video  --> div.video__iframes --> iframe*/
+@import url(../blocks/video/__iframe/video__iframe.css);
 
+/* ---------------------------------------БЛОК OAKLEY */
+@import url(../blocks/oakley/oakley.css);
 
+/* --------------------------------------------------------БЛОК FEYNMAN */
+@import url(../blocks/feynman/feynman.css);
+@import url(../blocks/feynman/__title/feynman__title.css);
+@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
 
 /* ---------------------------------------БЛОК DIGITS не удалять!!! */
 .digits {
   margin-top: 100px;
 }
-
 
 .table {
   display: flex;
@@ -100,34 +111,10 @@
 
 /* --------------------------------------------------------БЛОК FEYNMAN */
 
-.feynman {
-  position: relative;
-  margin-top: 100px;
-  min-height: 890px;
-  background: #f2f2f2 url(../images/feynman.png) no-repeat bottom left;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-}
 
-.feynman__title {
-  width: 648px;
-  margin: 100px auto 0;
-  padding-top: 100px;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: 600;
-}
 
-.feynman__subtitle {
-  text-align: center;
-  margin: 70px 0 0;
-  padding: 0;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-}
+
+
 
 .feynman__link {
   position: absolute;
